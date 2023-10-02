@@ -51,11 +51,11 @@ The [instructions from the ACCESS-NRI Intake catalogue docs](https://access-nri-
 Steps:
 1. Log in to ARE using your NCI username and password: https://are.nci.org.au
 
-![ARE|690x468, 50%](upload://831Tl4SXxv1HTBDLnfHD8XtyEmP.png)
+![ARE|690x468, 50%](https://global.discourse-cdn.com/business7/uploads/access1/optimized/1X/38691708aadd177bc3929710588bc1ed23907107_2_345x234.png)
 
 2. Select the JupyterLab app
 
-![icon|440x440, 50%](upload://uiwvajTDrrxLVqhmAybSTwAhHdF.png)
+![icon|440x440, 50%](https://global.discourse-cdn.com/business7/uploads/access1/original/1X/d459475f86a3914789ea7eed0e3595786604b373.png)
 
 
 For this tutorial there are some recommended settings for your ARE session that have been tested and will work:
@@ -88,19 +88,20 @@ conda/analysis3-unstable
 
 Push the submit button and then you will have a window that looks something like this:
 
-![ARE_queue|690x246](upload://1KMmWJaFqGF4TaVUjgENgOdZTli.png)
+![ARE_queue|690x246](https://global.discourse-cdn.com/business7/uploads/access1/optimized/1X/0c4be97188937a9867b9917ea4ea143f212d0e2c_2_690x246.png)
 
 You may wait a few minutes for your queued job to start running, which is where your JupyterLab application runs.
 
 When your JupyterLab session is ready the screen will change, an "Open JupyterLab" button. Push it and your JupyterLab session will open in a new window.
 
-![JupyterLab_ready|690x287](upload://puxjZ11pRjXtk9SNbUjDJZbi5Hz.jpeg)
+![JupyterLab_ready|690x287](https://global.discourse-cdn.com/business7/uploads/access1/optimized/1X/b2aa0d0e4390936681865bcb3930dd693c564ee1_2_690x287.jpeg)
 
 
 ## Find Tutorial Notebooks
 
 In the JupyterLab window use the file browser to navigate to the directory where you downloaded the jupyter notebook files in the preparation section above. Double-click on the `home` directory in the file browser:
-![jupyterlab_filebrowser|540x500, 75%](upload://8ecBWfgaKuDBRJiKjlptr1SSHXg.png)
+
+![jupyterlab_filebrowser|540x500, 75%](https://global.discourse-cdn.com/business7/uploads/access1/optimized/1X/39ac6a14fa5b588a322e7f327839fa2dcf193ed6_2_405x375.png)
 
 and then double-click on the `HPC-Data-CFD-2023` directory.
 
