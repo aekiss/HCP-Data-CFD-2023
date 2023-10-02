@@ -36,9 +36,9 @@ The tutorial uses two notebooks in a `git` repository. You will need to download
 
 To do this log in to `gadi` and copy and paste this command:
 ```
-git clone https://github.com/aekiss/HCP-Data-CFD-2023.git
+git clone https://github.com/aekiss/HPC-Data-CFD-2023.git
 ```
-This will have created a directory called `HCP-Data-CFD-2023` in your gadi home directory. 
+This will have created a directory called `HPC-Data-CFD-2023` in your gadi home directory. 
 
 # Tutorial Session
 
@@ -102,15 +102,15 @@ When your JupyterLab session is ready the screen will change, an "Open JupyterLa
 In the JupyterLab window use the file browser to navigate to the directory where you downloaded the jupyter notebook files in the preparation section above. Double-click on the `home` directory in the file browser:
 ![jupyterlab_filebrowser|540x500, 75%](upload://8ecBWfgaKuDBRJiKjlptr1SSHXg.png)
 
-and then double-click on the `HCP-Data-CFD-2023` directory.
+and then double-click on the `HPC-Data-CFD-2023` directory.
 
 ## Notebook 1: Finding COSIMA Data
 
-The [first notebook](https://github.com/aekiss/HCP-Data-CFD-2023/blob/main/Finding_COSIMA_data.ipynb) covers using the explorer tools in the COSIMA Cookbook database to find data.
+The [first notebook](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Finding_COSIMA_data.ipynb) covers using the explorer tools in the COSIMA Cookbook database to find data.
 
 ## Notebook 2: Comparing Sea Surface Height Data
 
-In the [second notebook](https://github.com/aekiss/HCP-Data-CFD-2023/blob/main/Sea_level.ipynb) you'll use what you've learned from the first part to load sea surface height data, do some calculations and plot the result.
+In the [second notebook](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Sea_level.ipynb) you'll use what you've learned from the first part to load sea surface height data, do some calculations and plot the result.
 
 # Clean-up
 
@@ -118,7 +118,7 @@ When finished make sure you save your work, close the tab and then Delete your r
 
 You are free to keep the notebooks you've been working on for reference. If you no longer want them you can use
 ```bash
-rm -rf HCP-Data-CFD-2023
+rm -rf HPC-Data-CFD-2023
 ```
 but BE CAREFUL with `rm -rf`. This will happily recursively delete your entire directory tree if given the wrong arguments (or right, if that is what you want to do).
 
