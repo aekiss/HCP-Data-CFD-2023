@@ -117,12 +117,6 @@ In the [second notebook](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/S
 
 When finished make sure you save your work, close the tab and then Delete your running JupyterLab app, otherwise it will continue to consume compute resources and eventually stop when it reaches the walltime limit.
 
-You are free to keep the notebooks you've been working on for reference. If you no longer want them you can use
-```bash
-rm -rf HPC-Data-CFD-2023
-```
-but BE CAREFUL with `rm -rf`. This will happily recursively delete your entire directory tree if given the wrong arguments (or right, if that is what you want to do).
-
 # Conclusion
 
 Hopefully you now know how to find COSIMA data, load it and do some meaningful analysis. Also you can now use the explorer to locate data, and learn the syntax for loading data in your own notebooks.
