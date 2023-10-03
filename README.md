@@ -14,21 +14,13 @@ There are three prerequisites, two to access NCI resources, and one to get the j
 
 ## NCI Account
 
-You *must* have an NCI account linked to a project with remaining compute allocation. This tutorial will require submitting a job to the NCI batch queuing system. Without remaining compute allocation your submitted job will never run.
-
-If you aren't sure which project to use, ask your supervisor, colleagues or relevant local IT support.
-
-If you do not have an NCI account follow the NCI [instructions to create one](https://opus.nci.org.au/display/Help/Setting+up+your+NCI+Account).
+You *must* have an NCI account. If you do not have an NCI account, follow the NCI [instructions to create one](https://opus.nci.org.au/display/Help/Setting+up+your+NCI+Account).
 
 ## NCI Projects 
 
-To access the data you need to complete the tutorial you should make sure you are also a member of the following projects at NCI:
+This tutorial will require submitting a job to the NCI batch queuing system, so you need to be a member of a project that has a compute allocation. Without remaining compute allocation your submitted job will never run. Project `nf47` has been set up for this purpose - please check that you are a member at https://my.nci.org.au/mancini.
 
-* `hh5`
-* `ik11`
-* `cj50`
-
-You can see the projects you are a member of at https://my.nci.org.au/mancini.
+To access the data and COSIMA Cookbook you will need to **fill in the form emailed by Meiyun, before 5pm AEDT 4th Nov**. This will give you membership of projects `hh5`, `ik11` and `cj50`. Please _don't_ request membership of these projects directly through Mancini.
 
 ## Get Notebooks
 
