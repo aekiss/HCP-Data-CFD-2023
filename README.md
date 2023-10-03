@@ -10,7 +10,7 @@ The tutorial will use the [NCI ARE](https://opus.nci.org.au/display/Help/ARE+Use
 
 There are three prerequisites, two to access NCI resources, and one to get the jupyter python notebooks.
 
-*All* perequisites need to be completed **WELL BEFORE** the day of tutorial. We only have 90 min for the tutorial, and there will not be time to do administration *and* follow the tutorial.
+*All* perequisites need to be completed **BEFORE** the tutorial. We only have 90 min for the tutorial, and there will not be time to do administration *and* follow the tutorial.
 
 ## NCI Account
 
@@ -18,9 +18,13 @@ You *must* have an NCI account. If you do not have an NCI account, follow the NC
 
 ## NCI Projects 
 
-This tutorial will require submitting a job to the NCI batch queuing system, so you need to be a member of a project that has a compute allocation. Without remaining compute allocation your submitted job will never run. Project `nf47` has been set up for this purpose - please check that you are a member at https://my.nci.org.au/mancini.
+This tutorial will require membership of particular projects at NCI. To participate you will need to follow the instructions sent by Meiyun. 
+_Please **don't** request membership of these projects directly through Mancini._
 
+<!--
+This tutorial will require submitting a job to the NCI batch queuing system, so you need to be a member of a project that has a compute allocation. Without remaining compute allocation your submitted job will never run. Project `nf47` has been set up for this purpose - please check that you are a member at https://my.nci.org.au/mancini.
 To access the data and COSIMA Cookbook you will need to **fill in the form emailed by Meiyun, before 5pm AEDT 4th Nov**. This will give you membership of projects `hh5`, `ik11` and `cj50`. Please _don't_ request membership of these projects directly through Mancini.
+-->
 
 ## Get Notebooks
 
