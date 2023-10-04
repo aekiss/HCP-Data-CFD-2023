@@ -120,7 +120,7 @@ If you've never used Jupyter or JupyterLab before, you might like to look at [th
 
 ## Simple Xarray demo
 
-Double-click `xarray_demo.ipynb` in the file browser in the left column and work through the notebook.
+Double-click [`xarray_demo.ipynb`](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/xarray_demo.ipynb) in the file browser in the left column and work through the notebook.
 
 ## Notebook 1: Finding COSIMA Data
 
