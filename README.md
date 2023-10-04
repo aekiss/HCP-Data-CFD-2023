@@ -34,9 +34,9 @@ To access the data and COSIMA Cookbook you will need to **fill in the form email
 
 ## Get Notebooks
 
-The tutorial uses two notebooks in a `git` repository. You will need to download these notebooks to an NCI filesystem. The recommended location is your home directory on `gadi`, as this is always accessible to an ARE JupyterLab session.
+The tutorial uses some notebooks in a `git` repository. You will need to download these notebooks to an NCI filesystem. The recommended location is your home directory on `gadi`, as this is always accessible to an ARE JupyterLab session.
 
-To do this log in to `gadi` and copy and paste this command:
+To do this, log in to `gadi` and copy and paste this command:
 ```
 git clone https://github.com/aekiss/HPC-Data-CFD-2023.git
 ```
@@ -73,12 +73,12 @@ For this tutorial there are some recommended settings for your ARE session that 
 
 You must *choose one* of the projects you have available to you. This must be a project with compute allocation remaining as discussed above in prerequisites.
 
-The storage section *must* contain all the `/g/data` projects you need to access. Use the following to include all the projects specified above:
+The storage section *must* contain all the `/g/data` projects you need to access. Use the following for this tutorial:
 ```
 gdata/hh5+gdata/ik11+gdata/cj50
 ```
 
-Click on "Advanced Settings" and set the following options
+Click on "Advanced Settings" and set the following options:
 
 **Module directories**
 ```
@@ -90,13 +90,13 @@ Click on "Advanced Settings" and set the following options
 conda/analysis3
 ```
 
-Push the submit button and then you will have a window that looks something like this:
+Push the Launch button and then you will have a window that looks something like this:
 
 ![ARE_queue|690x246](https://global.discourse-cdn.com/business7/uploads/access1/optimized/1X/0c4be97188937a9867b9917ea4ea143f212d0e2c_2_690x246.png)
 
-You may wait a few minutes for your queued job to start running, which is where your JupyterLab application runs.
+You may need to wait a few minutes for your queued job to start running, which is where your JupyterLab application runs.
 
-When your JupyterLab session is ready the screen will change, an "Open JupyterLab" button. Push it and your JupyterLab session will open in a new window.
+When your JupyterLab session is ready the screen will change, with an "Open JupyterLab" button. Push it and your JupyterLab session will open in a new window.
 
 ![JupyterLab_ready|690x287](https://global.discourse-cdn.com/business7/uploads/access1/optimized/1X/b2aa0d0e4390936681865bcb3930dd693c564ee1_2_690x287.jpeg)
 
