@@ -68,14 +68,14 @@ For this tutorial there are some recommended settings for your ARE session that 
 |Walltime|2 hours|
 |Queue|normalbw|
 |Compute Size|Medium|
-|Project| *choose one*|
+|Project| *choose one, e.g. `nf47`*|
 |Storage| *see below* |
 
 You must *choose one* of the projects you have available to you. This must be a project with compute allocation remaining as discussed above in prerequisites.
 
 The storage section *must* contain all the `/g/data` projects you need to access. Use the following to include all the projects specified above:
 ```
-gdata/hh5+gdata/ik11+gdata/cj50+scratch/public
+gdata/hh5+gdata/ik11+gdata/cj50
 ```
 
 Click on "Advanced Settings" and set the following options
@@ -87,7 +87,7 @@ Click on "Advanced Settings" and set the following options
 
 **Modules**
 ```
-conda/analysis3-unstable
+conda/analysis3
 ```
 
 Push the submit button and then you will have a window that looks something like this:
