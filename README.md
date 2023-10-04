@@ -122,13 +122,19 @@ If you've never used Jupyter or JupyterLab before, you might like to look at [th
 
 Double-click [`xarray_demo.ipynb`](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/xarray_demo.ipynb) in the file browser in the left column and work through the notebook.
 
-## Notebook 1: Finding COSIMA Data
+## Dask, Xarray and COSIMA Cookbook demo
 
-The [first notebook](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Finding_COSIMA_data.ipynb) covers using the explorer tools in the COSIMA Cookbook database to find data.
+Double-click [`Sea_level.ipynb`](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Sea_level.ipynb) in the file browser and work through the notebook.
 
-## Notebook 2: Comparing Sea Surface Height Data
+## COSIMA Cookbook data explorer demo
 
-In the [second notebook](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Sea_level.ipynb) you'll use what you've learned from the first part to load sea surface height data, do some calculations and plot the result.
+Double-click [`Explorer_demo.ipynb`](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Explorer_demo.ipynb) in the file browser and play around with it.
+There's more information in [`Finding_COSIMA_data.ipynb`](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Finding_COSIMA_data.ipynb) if you're interested.
+
+## For further interest
+
+* try out the other notebooks in this repository
+* check out the [COSIMA Recipes](https://github.com/COSIMA/cosima-recipes)
 
 # Clean-up
 
