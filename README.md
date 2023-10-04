@@ -25,7 +25,7 @@ You *must* have an NCI account. If you do not have an NCI account, follow the NC
 ## NCI Projects 
 
 This tutorial will require membership of particular projects at NCI. To participate you will need to follow the instructions sent by Meiyun. 
-_Please **don't** request membership of these projects directly through Mancini._
+_Please **don't** request membership of these projects directly through Mancini._ You will be sent 3 project membership invitations which you need to accept **WELL BEFORE** the tutorial.
 
 <!--
 This tutorial will require submitting a job to the NCI batch queuing system, so you need to be a member of a project that has a compute allocation. Without remaining compute allocation your submitted job will never run. Project `nf47` has been set up for this purpose - please check that you are a member at https://my.nci.org.au/mancini.
