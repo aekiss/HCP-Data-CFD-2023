@@ -114,11 +114,14 @@ and then double-click on the `HPC-Data-CFD-2023` directory.
 If you've never used Jupyter or JupyterLab before, you might like to look at [this overview of the interface](https://jupyterlab.readthedocs.io/en/stable/user/interface.html) and [how to use notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html).
 
 ### Creating a new notebook
-* Click the big blue + button at the top of the file browser (see image above).
-* Click `Python [conda env:analysis3-23.04] *` in the Notebook category. This opens a new untitled Python notebook (running with a specific package environment). You can change the notebook name by right-clicking the notebook tab or in the file browser.
-* There will be a code cell at the top. Type `1+1` in it, hold down shift and press return. **Shift-return will evaluate a cell** (rather than creating a new line in the cell), print the result, and give you a new code cell in which you can try out other Python commands. You can go back and change cells and re-evaluate them with shift-click. Cells can also be rearranged, duplicated and deleted.
+* [Click the big blue + button](https://youtu.be/QL0IxDAOEc0) at the top of the file browser (see image above), then click `Python [conda env:analysis3-23.04] *` in the Notebook category. This opens a new untitled Python notebook (running with a specific package environment). You can change the notebook name by right-clicking the notebook tab or [in the file browser](https://youtu.be/y3xzXelypjs).
+* There will be a code cell at the top. Type `1+1` in it, hold down shift and press return. **Shift-return will evaluate a cell** (rather than creating a new line in the cell), print the result, and give you a new code cell in which you can try out other Python commands. You can go back and change cells and re-evaluate them with shift-click. You can hide input or output cells by clicking in the blue bar that appears in the left margin. Cells can also be [rearranged](https://youtu.be/J9xoTGdqWIo), duplicated, deleted and [more](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html).
 * You can change a cell type from Code to Markdown using the dropdown menu. Markdown cells can be used to create comments and explanations of your code and analysis, including URLs, images and tables, and also mathematical markup in Latex. Try out some of the examples [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).
-  
+
+## Simple Xarray demo
+
+Double-click `xarray_demo.ipynb` in the file browser in the left column and work through the notebook.
+
 ## Notebook 1: Finding COSIMA Data
 
 The [first notebook](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Finding_COSIMA_data.ipynb) covers using the explorer tools in the COSIMA Cookbook database to find data.
