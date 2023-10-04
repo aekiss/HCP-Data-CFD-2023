@@ -4,7 +4,7 @@ This is material for a tutorial on the [COSIMA Cookbook](https://github.com/COSI
 
 This tutorial is aimed at people who have some [familiarity with the Python programming language](https://docs.python.org/3/tutorial/index.html) but have never used the [COSIMA Recipes](https://github.com/COSIMA/cosima-recipes) for accessing and analysing COSIMA model output.
 
-The tutorial will use the [NCI ARE](https://opus.nci.org.au/display/Help/ARE+User+Guide) (Australian Research Environment) [JupyterLab App](https://opus.nci.org.au/display/Help/3.+JupyterLab+App). This is user-friendly way to run Jupyter Notebooks at NCI, which makes it possible to access the data required for this tutorial.
+The tutorial will use the [NCI ARE](https://opus.nci.org.au/display/Help/ARE+User+Guide) (Australian Research Environment) [JupyterLab App](https://opus.nci.org.au/display/Help/3.+JupyterLab+App). This is a user-friendly way to run Jupyter Notebooks at NCI, which makes it possible to access the data required for this tutorial.
 
 The tutorial will provide hands-on experience in
 * using [Python](https://docs.python.org/3/tutorial/index.html) in the [JupyterLab App](https://opus.nci.org.au/display/Help/3.+JupyterLab+App) environment on [NCI ARE](https://opus.nci.org.au/display/Help/ARE+User+Guide)
