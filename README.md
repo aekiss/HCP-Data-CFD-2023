@@ -109,6 +109,16 @@ In the JupyterLab window use the file browser to navigate to the directory where
 
 and then double-click on the `HPC-Data-CFD-2023` directory.
 
+## Familiarisation with the JupyterLab interface
+
+If you've never used Jupyter or Jupyterlab before, you might like to look at [this overview of the interface](https://jupyterlab.readthedocs.io/en/stable/user/interface.html) and [how to use notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html).
+
+### Creating a new notebook
+* Click the big blue + button at the top of the file browser (see image above).
+* Click `Python [conda env:analysis3-23.04] *`. This opens a new untitled Python notebook (running with a specific package environment). You can change the notebook name by right-clicking the notebook tab or in the file browser.
+* There will be a code cell at the top. Type `1+1` in it, hold down shift and press return. Shift-return will evaluate the cell (rather than creating a new line in the cell), print the result, and give you a new code cell in which you can try out other Python commands. You can go back and change cells and re-evaluate them with shift-click. Cells can also be rearranged, duplicated and deleted.
+* You can change a cell type from Code to Markdown using the dropdown menu. Markdown cells can be used to create comments and explanations of your code and analysis, including URLs, images and tables, and also mathematical markup in Latex. Try out some of the examples [here](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html).
+  
 ## Notebook 1: Finding COSIMA Data
 
 The [first notebook](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Finding_COSIMA_data.ipynb) covers using the explorer tools in the COSIMA Cookbook database to find data.
