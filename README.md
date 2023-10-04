@@ -139,7 +139,3 @@ There's more information in [`Finding_COSIMA_data.ipynb`](https://github.com/aek
 # Clean-up
 
 When finished make sure you save your work, close the tab and then Delete your running JupyterLab app, otherwise it will continue to consume compute resources and eventually stop when it reaches the walltime limit.
-
-# Conclusion
-
-Hopefully you now know how to find COSIMA data, load it and do some meaningful analysis. Also you can now use the explorer to locate data, and learn the syntax for loading data in your own notebooks.
