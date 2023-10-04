@@ -2,9 +2,15 @@
 
 This is material for a tutorial on the [COSIMA Cookbook](https://github.com/COSIMA/cosima-cookbook) for a 2023 Intersect course on [HPC and Data in Computational Fluid Dynamics](https://intersect.org.au/education/collaborative-graduate-courses/3rd-collaborative-course/). It borrows very heavily from Aidan Heerdegen's [training workshop](https://github.com/ACCESS-Hive/cosima-training-workshop-2023) and associated [hive post](https://forum.access-hive.org.au/t/introduction-to-cosima-cookbook-data-explorer-and-access-nri-intake-catalog/1144) (thanks Aidan!)
 
-This tutorial is aimed at people who have some familiarity with the Python programming language but have never used the [COSIMA Recipes](https://github.com/COSIMA/cosima-recipes) for accessing and analysing COSIMA model output.
+This tutorial is aimed at people who have some [familiarity with the Python programming language](https://docs.python.org/3/tutorial/index.html) but have never used the [COSIMA Recipes](https://github.com/COSIMA/cosima-recipes) for accessing and analysing COSIMA model output.
 
 The tutorial will use the [NCI ARE](https://opus.nci.org.au/display/Help/ARE+User+Guide) (Australian Research Environment) [JupyterLab App](https://opus.nci.org.au/display/Help/3.+JupyterLab+App). This is user-friendly way to run Jupyter Notebooks at NCI, which makes it possible to access the data required for this tutorial.
+
+The tutorial will provide hands-on experience in
+* using [Python](https://docs.python.org/3/tutorial/index.html) in the [JupyterLab App](https://opus.nci.org.au/display/Help/3.+JupyterLab+App) environment on [NCI ARE](https://opus.nci.org.au/display/Help/ARE+User+Guide)
+* accessing and manipulating data with the [Xarray](https://docs.xarray.dev/en/stable/index.html) package
+* using [Dask](https://www.dask.org/) to accelerate your analysis and handle larger datasets
+* using the [COSIMA Cookbook](https://github.com/COSIMA/cosima-cookbook), [Data Explorer](https://cosima-recipes.readthedocs.io/en/latest/Tutorials/Using_Explorer_tools.html#Exploring-a-Cookbook-Database) and [COSIMA Recipes](https://github.com/COSIMA/cosima-recipes)
 
 # Preparation Before Tutorial Day
 
@@ -35,6 +41,8 @@ To do this log in to `gadi` and copy and paste this command:
 git clone https://github.com/aekiss/HPC-Data-CFD-2023.git
 ```
 This will have created a directory called `HPC-Data-CFD-2023` in your gadi home directory. 
+
+Note: this repository is being updated, so you may need to clone a fresh version of this repository (or do a `git pull`, if you know about git) just prior to the tutorial.
 
 # Tutorial Session
 
