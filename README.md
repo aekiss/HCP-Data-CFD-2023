@@ -124,7 +124,10 @@ Double-click [`xarray_demo.ipynb`](https://github.com/aekiss/HPC-Data-CFD-2023/b
 
 ## Dask, Xarray and COSIMA Cookbook demo
 
-Double-click [`Sea_level.ipynb`](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Sea_level.ipynb) in the file browser and work through the notebook.
+[Xarray will use Dask arrays if you set the `chunks` parameter](https://examples.dask.org/xarray.html) (e.g. `chunks='auto'`) in NetCDF file opening commands such as `xr.open_dataset` and `xr.open_mfdataset`, and subsequent calculations will then be automatically parallelised with Dask, without needing any code changes.
+This is done automatically by `cc.querying.getvar` in the COSIMA Cookbook, but the default chunking scheme can be overridden if you like. Note that you may need to [choose your chunking scheme to suit your calculation](https://docs.dask.org/en/stable/array-chunks.html) for optimum performance.
+
+To see examples of Xarray calculations done in parallel with Dask using the COSIMA Cookbook, double-click [`Sea_level.ipynb`](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Sea_level.ipynb) in the file browser and work through the notebook.
 
 ## COSIMA Cookbook data explorer demo
 
