@@ -2,6 +2,8 @@
 
 This is material for a tutorial on the [COSIMA Cookbook](https://github.com/COSIMA/cosima-cookbook) for a 2023 Intersect course on [HPC and Data in Computational Fluid Dynamics](https://intersect.org.au/education/collaborative-graduate-courses/3rd-collaborative-course/). It borrows very heavily from Aidan Heerdegen's [training workshop](https://github.com/ACCESS-Hive/cosima-training-workshop-2023) and associated [hive post](https://forum.access-hive.org.au/t/introduction-to-cosima-cookbook-data-explorer-and-access-nri-intake-catalog/1144) (thanks Aidan!)
 
+Lecture slides from the course are [here](https://github.com/aekiss/HPC-Data-CFD-2023/blob/main/Kiss-COSIMA-data.pdf). Contact me if you'd like to see the video recording of my lecture.
+
 This tutorial is aimed at people who have some [familiarity with the Python programming language](https://docs.python.org/3/tutorial/index.html) but have never used the [COSIMA Recipes](https://github.com/COSIMA/cosima-recipes) for accessing and analysing COSIMA model output.
 
 The tutorial will use the [NCI ARE](https://opus.nci.org.au/display/Help/ARE+User+Guide) (Australian Research Environment) [JupyterLab App](https://opus.nci.org.au/display/Help/3.+JupyterLab+App). This is a user-friendly way to run Jupyter Notebooks at NCI, which makes it possible to access the data required for this tutorial.
